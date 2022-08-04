@@ -9,8 +9,10 @@ public class Error {
 		BasicConfigurator.configure();
 		int num=10;
 		int num1=0;
+		
 		try {
 		System.out.println(num/num1);
+		System.out.println(num*num1);
 		}
 		catch(Exception e) {
 			log.error("Dont divide any number by using zero",e);
